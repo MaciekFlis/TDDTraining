@@ -1,9 +1,9 @@
-﻿module RomanNumeralValidatorTests
+﻿module RomanNumeralValidationTests
 open TestUtils
 open FsUnit
 open Fuchu
-open RomanConverter.Validate
-open RomanConverter.RomanParser
+open RomanConverter.Validation
+open RomanConverter.RomanParse
 
 let validationFailsFor inputs =
     let assertValidationFailure input =

@@ -1,10 +1,10 @@
 ﻿// Learn more about F# at http://fsharp.org
 // See the 'F# Tutorial' project for more help.
 open RomanConverter.Detection
-open RomanConverter.ReverseConverter
-open RomanConverter.RomanParser
-open RomanConverter.Validate
-open RomanConverter.Converter
+open RomanConverter.ReverseConversion
+open RomanConverter.RomanParse
+open RomanConverter.Validation
+open RomanConverter.Conversion
 
 [<EntryPoint>]
 let main argv = 

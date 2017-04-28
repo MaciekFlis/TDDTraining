@@ -1,8 +1,9 @@
-﻿module ToDecimalConverterTests
+﻿module ParseTests
+
 open TestUtils
 open Fuchu
 open FsUnit
-open RomanConverter.RomanParser
+open RomanConverter.RomanParse
 open RomanConverter.Utils
 
 [<Tests>]

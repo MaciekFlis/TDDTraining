@@ -10,10 +10,10 @@ let fromString<'a> (s:string) =
     |[|case|] -> Some(FSharpValue.MakeUnion(case,[||]) :?> 'a)
     |_ -> None
 
-type RomanNumeral = 
+type RomanDigit = 
     | I | V | X | L | C | D | M
     override this.ToString() = toString this
-    static member fromString s = fromString<RomanNumeral> s
+    static member fromString s = fromString<RomanDigit> s
 
 let getNumericValueFromRomanDigit digit = 
     match digit with

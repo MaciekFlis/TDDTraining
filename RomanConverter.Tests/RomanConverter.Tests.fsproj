@@ -58,10 +58,10 @@
     <Compile Include="AssemblyInfo.fs" />
     <Compile Include="TestUtils.fs" />
     <Compile Include="TypeDetectionTests.fs" />
-    <Compile Include="RomanParserTests.fs" />
-    <Compile Include="RomanNumeralValidatorTests.fs" />
-    <Compile Include="FromRomanConverterTests.fs" />
-    <Compile Include="ToRomanConverterTests.fs" />
+    <Compile Include="ParseTests.fs" />
+    <Compile Include="RomanNumeralValidationTests.fs" />
+    <Compile Include="ConversionTests.fs" />
+    <Compile Include="ReverseConversionTests.fs" />
     <Compile Include="Program.fs" />
     <None Include="App.config" />
     <Content Include="packages.config" />

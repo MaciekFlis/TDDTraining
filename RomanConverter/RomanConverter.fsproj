@@ -58,10 +58,10 @@
     <Compile Include="AssemblyInfo.fs" />
     <Compile Include="Utils.fs" />
     <Compile Include="Detection.fs" />
-    <Compile Include="RomanParser.fs" />
-    <Compile Include="Validator.fs" />
-    <Compile Include="Converter.fs" />
-    <Compile Include="ReverseConverter.fs" />
+    <Compile Include="RomanParse.fs" />
+    <Compile Include="Validation.fs" />
+    <Compile Include="Conversion.fs" />
+    <Compile Include="ReverseConversion.fs" />
     <Compile Include="Program.fs" />
     <None Include="App.config" />
     <Content Include="packages.config" />

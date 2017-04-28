@@ -1,8 +1,5 @@
-﻿module RomanConverter.Converter
-
+﻿module RomanConverter.Conversion
 open Utils
-open RomanParser
-open Validate
 
 let convert number = 
         let romanAdd = 

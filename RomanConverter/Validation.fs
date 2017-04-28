@@ -1,12 +1,11 @@
-﻿module RomanConverter.Validate
+﻿module RomanConverter.Validation
 open RomanConverter.Utils
-open RomanConverter.RomanParser
 
 exception RomanValidationException of string
 
 type Operation = | Addition | Subtraction
 
-let validate (number : RomanNumeral list) = 
+let validate (number : RomanDigit list) = 
     
     let getstringFromNum num = 
         let s = seq { yield! num |> Seq.map (fun n -> n.ToString()) }

@@ -1,11 +1,12 @@
-﻿module FromRomanConverterTests
-open RomanConverter.RomanParser
+﻿module ConversionTests
+
+open RomanConverter.RomanParse
 open TestUtils
 open FsUnit
 open Fuchu
 open RomanConverter.Utils
-open RomanConverter.Validate
-open RomanConverter.Converter
+open RomanConverter.Validation
+open RomanConverter.Conversion
 
 let gives num str  = 
     str ->? fun _->  str |> parseRoman |> validate |> convert |> should equal num

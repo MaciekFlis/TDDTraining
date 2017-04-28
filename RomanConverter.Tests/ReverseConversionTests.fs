@@ -1,9 +1,9 @@
-﻿module ToRomanConverterTests
+﻿module ReverseConversionTests
 open TestUtils
 open FsUnit
 open Fuchu
 open RomanConverter.Utils
-open RomanConverter.ReverseConverter
+open RomanConverter.ReverseConversion
 
 let gives expected input = 
     (sprintf "%s should give %s" (input.ToString()) expected) ->? fun _ -> 
